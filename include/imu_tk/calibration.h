@@ -273,7 +273,7 @@ public:
   void setGravityMagnitude( _T g ){ g_mag_ = g; };
   
   /** @brief Set the duration in seconds of the initial static interval. Default 30 seconds. */
-  _T setInitStaticIntervalDuration( _T duration ) { init_interval_duration_ = duration; };
+  void setInitStaticIntervalDuration( _T duration ) { init_interval_duration_ = duration; };
   
   /** @brief Set the number of data samples to be extracted from each detected static intervals.
    *         Default is 100.  */
